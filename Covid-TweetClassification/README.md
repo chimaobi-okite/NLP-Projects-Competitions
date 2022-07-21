@@ -1,3 +1,7 @@
+# Covid -Tweet Classification
+
+
+![covid](https://user-images.githubusercontent.com/70687495/180223270-13dd1044-dea8-4237-8f80-706231697ede.JPG)
 ## Problem Statement
 
 ML-driven sentiment analysis is an important tool to understand communities’ feelings around major issues such as COVID-19. 
