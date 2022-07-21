@@ -24,6 +24,11 @@ Tweets have been classified as covid-19-related (1) or not covid-19-related (0).
 * 19
 The tweets have also had usernames and web addresses removed to ensure anonymity.
 
+### Accessing Data
+
+Note that the github url in the pd.read_csv method does not exist. Kindly 
+go to [zindi](https://zindi.africa/competitions/zindiweekendz-learning-covid-19-tweet-classification-challenge/data) and access it from there.
+
 ## Approach 
 
 Here I used different machine learning approaches to solve this task in other compare results easily.
