@@ -7,4 +7,4 @@ file showing details of the implementation
  including using Transformers and Traditional ML techniques. Check the folder to learn more.
  
  02. [News Cateogization](https://github.com/chimaobi-okite/NLP-Projects-Competitions/tree/main/NewsCategorization): Currently in progress. Here I will implement 
- an end-to-end deep learning based approach to news categorization using data scrapped from popular Nigerian News tv website - [Arisetv](https://www.arise.tv/)
+ an end-to-end deep learning based approach to news categorization using data scrapped from popular Nigerian News tv website - [Arisetv](https://www.arise.tv/). Check it out to see my progress so far.
