@@ -44,7 +44,7 @@ and I based more on trial and error . Check out the **Traditional ML notebook** 
 2. Since there was just few labelled examples, using a DistilBert transformer as feature extractor and training a logistics regression model on top,
 I achieved around 89% accuracy on validation data. This approach was also more inituitive and easier to interprete.
 
-3. I also finetuned a Distilbert model for text claaification and had a higher F1 score of around 91%. The slight increase in 
+3. I also finetuned a Distilbert model for text classification and had a higher F1 score of around 91%. The slight increase in 
 performance could be attributed to the fact that I had just few labelled examples.
 
 Approach 2 and 3 canbe seen in the **TransformerForTextClassification** notebook. 
