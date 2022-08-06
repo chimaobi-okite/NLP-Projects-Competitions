@@ -38,7 +38,7 @@ go to [zindi](https://zindi.africa/competitions/zindiweekendz-learning-covid-19-
 Here I used different machine learning approaches to solve this task in other compare results easily.
 
 1. With traditional text processing and ml techniques, I was able to acheieve an F1 score of around 88%, though it was difficult to get the right kind of processing to apply
-and I based on more trial and error . Check out the **Traditional ML notebook**  to see more. I also experimented with different models. 
+and I based more on trial and error . Check out the **Traditional ML notebook**  to see more. I also experimented with different models. 
 
 
 2. Since there was just few labelled examples, using a DistilBert transformer as feature extractor and training a logistics regression model on top,
