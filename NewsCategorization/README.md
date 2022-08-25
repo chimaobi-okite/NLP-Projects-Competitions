@@ -23,10 +23,10 @@ check the hugging dataset card [here](https://huggingface.co/datasets/okite97/ne
 
 
 ## Results
-| Model                    | F1-score    |
-| ------------------------ | --------------- |
-| Logistics Regression     |  0.8830944556627599   |
-| Fine-tuned Transformer   | 0.9073589381747773        |
+| Model                    | F1-score        | Model size (mb) |
+| ------------------------ | --------------- |--------------- |
+| Logistics Regression     |  0.8830944556627599   |  268.036   |
+| Fine-tuned Transformer   | 0.9073589381747773    |  268.000   |
 
 
 Still in progress. You can check the NewsTransformerNotebook for performance using transformer approach.
