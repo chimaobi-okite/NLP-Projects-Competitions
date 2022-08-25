@@ -18,4 +18,15 @@ csv files as well as a notebook that contains the code I used to scrap the data.
 * FEATURES: Title:  Title of a news article. Excerpt: short text from the article. 
 * There are six distinct sections where each story may fall in to. The Sections are labelled as follows : 0: 'health', 1 :'business', 2: 'politics', 3:'entertainment', 4:'sports', 5: 'tech'
 
+* Want to know more about the data! :stuck_out_tongue_winking_eye: ?
+check the hugging dataset card [here](https://huggingface.co/datasets/okite97/news-data) or the data folder for the codes
+
+
+## Results
+| Model                    | F1-score    |
+| ------------------------ | --------------- |
+| Logistics Regression     |  0.8830944556627599   |
+| Fine-tuned Transformer   | 0.9073589381747773        |
+
+
 Still in progress. You can check the NewsTransformerNotebook for performance using transformer approach.
