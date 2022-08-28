@@ -29,4 +29,8 @@ check the hugging dataset card [here](https://huggingface.co/datasets/okite97/ne
 | Fine-tuned Transformer   | 0.9073589381747773    |  268.000   |
 
 
+## Demo
+
+Check out a gradio demo on how the model works [here](https://huggingface.co/spaces/okite97/news-demo)
+
 Still in progress. You can check the NewsTransformerNotebook for performance using transformer approach.
