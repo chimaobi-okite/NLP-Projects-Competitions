@@ -1,7 +1,7 @@
 # News Catgorization
 
 ## Motivation 
-After gaining a handful of knowledge about NLP with transformers and huggingface, I decided to complete an end-to-end (From Getting Data to model deployment) project using these technologies and also compare performance to  that of traditional ML techniques and RNN-based deeplearning approaches.
+Having learnt about NLP with transformers and huggingface, I decided to complete an end-to-end (From Getting Data to model deployment) project using these technologies and also compare performance to  that of traditional ML techniques and RNN-based deeplearning approaches.
 
 
 ## Context 
