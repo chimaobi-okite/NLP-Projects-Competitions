@@ -12,7 +12,7 @@ To use Natural Language Processing to predict which genre or category a piece of
 
 ## Data
 The data used here was scrapped from [arisetv](https://www.arise.tv/), one of the most popular news tv in Nigeria. The data folder contains the train and test 
-csv files as well as a notebook that contains the code I used to scrap the data. 
+csv files as well as a notebook with code I used to scrap the data. 
 * Size of training set: 4,594 
 * Size of test set: 811 
 * FEATURES: Title:  Title of a news article. Excerpt: short text from the article. 
@@ -23,14 +23,27 @@ check the hugging dataset card [here](https://huggingface.co/datasets/okite97/ne
 
 
 ## Results
-| Model                    | F1-score        | Model size (mb) |
-| ------------------------ | --------------- |--------------- |
-| Logistics Regression     |  0.8830944556627599   |  268.036   |
-| Fine-tuned Transformer   | 0.9073589381747773    |  268.000   |
+| Model                                          | F1-score              | Model size (mb) |
+| ---------------------------------------------- | --------------------- |--------------- |
+| Logistics Regression + DistilBert Features     |  0.8830944556627599   |  268.036   |
+| Fine-tuned Transformer                         | 0.9073589381747773    |  268.000   |
+| Logistics-regression + TfidfVectorizer |  0.82   |  0.36  |
+| Logistics-regression + TfidfVectorizer + over_sampling |  0.87   |  0.36  |
+
+
+### Summary Of Results
+
+Looking at the table above, I can say that traditional ML techniques is still the go-to for text classification. This is putting into consideration the model's
+performance and size. We can see that the fine-tuned transformer is **744** times larger than the simple Logistics regression with TFID based features (Thats alot to just push aside for 3.44% increase in performance). 
+
+I also experimented with RNNs but was not able to get a good score. It wasnt surprising though,  owing to the fact that there are just about 4000 datapoints with 6 different classes to predict , so even pretrained glove embedding could not able to learn enough
+
+
 
 
 ## Demo
 
 Check out a gradio demo on how the model works [here](https://huggingface.co/spaces/okite97/news-demo)
 
-Still in progress. You can check the NewsTransformerNotebook for performance using transformer approach.
+Check the notebooks for more details. 
+The *newsml.ipynb* files includes interesting stuffs like experiment tracking with mlflow, parameter optimization, model interpretation with lime etc
