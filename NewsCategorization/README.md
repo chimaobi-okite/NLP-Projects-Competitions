@@ -1,6 +1,6 @@
 # News Catgorization
 
-![news_demo](https://user-images.githubusercontent.com/70687495/188132947-9975fe19-3b13-49b3-907c-b8983c34a785.JP)
+![news_demo](https://user-images.githubusercontent.com/70687495/188132947-9975fe19-3b13-49b3-907c-b8983c34a785.JPG)
 
 ## Motivation 
 Having learnt about NLP with transformers and huggingface, I decided to complete an end-to-end (From Getting Data to model deployment) project using these technologies and also compare performance to  that of traditional ML techniques and RNN-based deeplearning approaches.
