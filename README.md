@@ -8,3 +8,5 @@ file showing details of the implementation
  
  02. [News Cateogization](https://github.com/chimaobi-okite/NLP-Projects-Competitions/tree/main/NewsCategorization): Currently in progress. Here I will implement 
  an end-to-end deep learning based approach to news categorization using data scrapped from popular Nigerian News tv website - [Arisetv](https://www.arise.tv/). Check it out to see my progress so far.
+ 
+ 03. [DeepLearning For NLP](https://github.com/chimaobi-okite/NLP-Projects-Competitions/tree/main/DLForNlp): Exploring performance of serveral deep learning approaches to text classification while building up core processing classes from scratch.
