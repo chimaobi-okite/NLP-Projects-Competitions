@@ -38,7 +38,7 @@ check the hugging dataset card [here](https://huggingface.co/datasets/okite97/ne
 Looking at the table above, I can say that traditional ML techniques is still the go-to for text classification. This is putting into consideration the model's
 performance and size. We can see that the fine-tuned transformer is **744** times larger than the simple Logistics regression with TFID based features (Thats alot to just push aside for 3.44% increase in performance). 
 
-I also experimented with RNNs but was not able to get a good score. It wasnt surprising though,  owing to the fact that there are just about 4000 datapoints with 6 different classes to predict , so even pretrained glove embedding could not able to learn enough
+I also experimented with RNNs but was not able to get a good score. It wasnt surprising though,  owing to the fact that there are just about 4000 datapoints with 6 different classes to predict , so even a pretrained glove embedding could not help
 
 
 
