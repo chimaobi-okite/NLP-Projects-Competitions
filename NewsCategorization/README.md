@@ -45,7 +45,10 @@ I also experimented with RNNs but was not able to get a good score. It wasnt sur
 
 ## Demo
 
-Check out a gradio demo on how the model works [here](https://huggingface.co/spaces/okite97/news-demo)
+Check out a 
+- gradio demo on how the model works [here](https://huggingface.co/spaces/okite97/news-demo)
+- fastapi deployment [here](https://github.com/chimaobi-okite/News/)
+
 
 Check the notebooks for more details. 
 The *newsml.ipynb* files includes interesting stuffs like experiment tracking with mlflow, parameter optimization, model interpretation with lime etc
