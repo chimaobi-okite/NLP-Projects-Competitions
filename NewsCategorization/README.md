@@ -28,7 +28,7 @@ check the hugging dataset card [here](https://huggingface.co/datasets/okite97/ne
 | Model                                          | F1-score              | Model size (mb) |
 | ---------------------------------------------- | --------------------- |--------------- |
 | Logistics Regression + DistilBert Features     |  0.8830944556627599   |  268.036   |
-| Fine-tuned Transformer                         | 0.9073589381747773    |  268.000   |
+| Fine-tuned DistilBert model                        | 0.9073589381747773    |  268.000   |
 | Logistics-regression + TfidfVectorizer |  0.82   |  0.36  |
 | Logistics-regression + TfidfVectorizer + over_sampling |  0.87   |  0.36  |
 
